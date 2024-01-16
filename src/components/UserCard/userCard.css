@@ -1,0 +1,67 @@
+.user-card {
+    border: 1px solid #ccc;
+    margin: 1rem;
+    box-sizing: border-box;
+    width: 100%; /* Ajusta el ancho de cada tarjeta según tus necesidades */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+    
+}
+
+.user__name{
+    color: rgb(97, 91, 91);
+    margin-top: 8px;
+    display: inline-block;
+    text-align: center;
+}
+.user__name span {
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: capitalize;
+  }
+.user-card hr {
+    border-style: solid;
+    width: fit-content;
+    border-color: #E6E6E6;
+    width: 70%;
+    margin: 12px;
+    margin-left: 30px;
+}
+.user__birthday, .user__email {
+    display: block;
+    margin-top: 8px;
+    color: rgb(97, 91, 91);
+    margin-left: 1.6rem;
+    margin-bottom: 0px;
+}
+.user__email{
+    margin-bottom: 10px;
+}
+
+.user__title-email, .user__title-birthday {
+    margin-left: 2rem;
+    color: #666CA3;
+}
+.user__btn-delete{
+    margin-left: 68%;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.user__btn-edit{
+    margin-left: 6px;
+    border: none;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: #666CA3;
+    color: whitesmoke;
+}

@@ -1,0 +1,15 @@
+.container-delete{
+    display: flex;
+}
+.delete__x{
+    cursor: pointer;
+    color: red;
+    margin-left: 1rem;
+}
+.delete__msg{
+    color: #666CA3;
+}
+.delete__x:hover{
+    transform: scale(1.2);
+    transition: 6ms;
+}
