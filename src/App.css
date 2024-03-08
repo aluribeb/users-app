@@ -30,6 +30,7 @@
     justify-content: center;
     transition: 200ms ease transform;
     transform: scale(1);
+    background-color: #00000070;
 }
 .delete-close{
     transform: scale(0)

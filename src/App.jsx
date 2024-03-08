@@ -14,7 +14,7 @@ function App() {
   const [isDeleteSuccess, setisDeleteSuccess] = useState(false)
 
 
-  const baseUrl = 'https://users-crud.academlo.tech'
+  const baseUrl = 'http://localhost:8080'
   const [users, getUser, createUser, deleteUser, updateUser] = useFetch(baseUrl)
 
   useEffect(() => {

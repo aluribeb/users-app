@@ -7,7 +7,7 @@ const [response, setResponse] = useState()
 
 //READ
 const getApi = () => {
-    const url = `${baseUrl}/users/`
+    const url = `${baseUrl}/users`
     axios.get(url)
         .then(res => setResponse(res.data))
         .catch(err =>console.log(err))
@@ -15,7 +15,7 @@ const getApi = () => {
 
 //CREATE
 const createApi = (data) =>{
-    const url = `${baseUrl}/users/`
+    const url = `${baseUrl}/users`
     axios.post(url, data)
         .then( res => {
             setResponse([...response, res.data])
