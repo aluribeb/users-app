@@ -14,7 +14,7 @@ function App() {
   const [isDeleteSuccess, setisDeleteSuccess] = useState(false)
 
 
-  const baseUrl = 'http://localhost:8080'
+  const baseUrl = 'https://users-crud-jgnn.onrender.com'
   const [users, getUser, createUser, deleteUser, updateUser] = useFetch(baseUrl)
 
   useEffect(() => {
